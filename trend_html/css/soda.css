@@ -1,0 +1,189 @@
+
+.header {
+    position: relative;
+    width: 10rem;
+    min-height: 7.61rem;
+    background: #121212;
+    margin-bottom: .385rem;
+}
+
+.title {
+    margin-top: 1.28rem;
+    color: #ffffff;
+    font-size: 19px;
+    text-align: center;
+}
+
+.user-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.733rem;
+    height: 1.733rem;
+    background: #ffffff;
+    margin: 1.08rem auto 0;
+    border-radius: 50%;
+}
+
+.user-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    background: pink;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-info {
+    margin-top: .4rem;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.user-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: .4rem auto 0;
+    padding: 0 .23rem;
+}
+
+.user-tag {
+    height: .56rem;
+    line-height: .56rem;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 .44rem;
+    background: #f52072;
+    border-radius: .08rem;
+    margin-right: .23rem;
+    margin-left: .23rem;
+    margin-bottom: .23rem;
+}
+
+.follow {
+    position: absolute;
+    bottom: -0.385rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    height: .77rem;
+    line-height: .77rem;
+    padding: 0 .91rem;
+    color: #f52072;
+    background: #ffffff;
+    font-size: .38rem;
+    border-radius: .77rem;
+    cursor: pointer;
+}
+
+.post {
+    background: #121212;
+    padding: 0 .42rem;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    height: 1.65rem;
+}
+
+.header-icon {
+    width: .96rem;
+    height: .96rem;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-name {
+    font-size: 15px;
+    line-height: .64rem;
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.header-date {
+    font-size: 12px;
+    line-height: .64rem;
+    color: #888888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.photos {
+    box-sizing: content-box;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.photos .photo {
+    box-sizing: content-box;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.content {
+    margin-top: .5rem;
+    font-size: 14px;
+    color: #ffffff;
+    word-break: break-all;
+}
+
+.content span {
+    color: #308793;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 1.08rem;
+    margin-top: .2rem;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 1.08rem;
+}
+
+.menu img {
+    max-width: .56rem;
+    margin-left: .67rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.menu div {
+    margin-left: .2rem;
+    cursor: pointer;
+}
+
+.read-all {
+    font-size: 12px;
+    color: #888888;
+    cursor: pointer;
+}
+
+.comments {
+    margin: .2rem 0;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+}
+

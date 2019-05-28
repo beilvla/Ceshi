@@ -1,0 +1,117 @@
+
+.header {
+    width: 10rem;
+    height: 7.47rem;
+}
+
+.topic-icon {
+    display: block;
+    margin: 1.93rem auto 0;
+    width: 2.87rem;
+    height: 1.68rem;
+    cursor: pointer;
+}
+
+.topic-title {
+    margin-top: .4rem;
+    text-align: center;
+    font-size: 19px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.topic-info {
+    margin: .2rem .4rem 0;
+    font-size: 12px;
+    color: #eaeaea;
+    display: flex;
+}
+
+.topic-info span {
+    display: block;
+    flex: 1;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: .54rem;
+    cursor: pointer;
+}
+
+.topic-info img {
+    cursor: pointer;
+    display: block;
+    width: .54rem;
+    height: .54rem;
+}
+
+.follow {
+    margin: .4rem auto 0;
+    width: 1.89rem;
+    height: .77rem;
+    line-height: .77rem;
+    text-align: center;
+    color: #eaeaea;
+    font-size: 15px;
+    background: #f52072;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    border-radius: .08rem;
+    cursor: pointer;
+}
+
+.tab-view {
+    margin: 0 .37rem 0;
+    display: flex;
+    font-size: 17px;
+    background: #292929;
+    box-sizing: border-box;
+    padding: 1px;
+    border-radius: 3px;
+}
+
+.tab {
+    flex: 1;
+    height: .75rem;
+    line-height: .75rem;
+    text-align: center;
+    border-radius: 3px;
+    color: #a9a9a9;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: pointer;
+}
+
+.select {
+    font-weight: bold;
+    color: #ffffff;
+    background: #5e5d62;
+
+}
+
+.photos {
+    position: relative;
+    width: 100%;
+    padding: 0 .4rem .4rem;
+    background: #121212;
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: .4rem;
+            column-gap: .4rem;
+}
+
+.photos .box {
+    cursor: pointer;
+    padding-top: .2rem;
+    width: 4.4rem;
+}
+
+.photos img {
+    width: 100%;
+}
+
